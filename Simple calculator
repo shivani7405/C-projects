@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    
+    char ch;
+    float no1, no2;
+    
+    cin>>ch;
+    cin>>no1>>no2;
+    
+    switch (ch)
+    {
+        case '+':
+            cout<<no1 + no2;
+            break;
+        
+        case '-':
+            cout<<no1 - no2;
+            break;
+        
+        case '*':
+            cout<<no1 * no2;
+            break;
+        
+        case '/':
+            cout<<no1 / no2;
+            break;
+            
+        default:
+            cout<<"Error!! operator is in valid";
+    }
+    
+    return 0;
+}
